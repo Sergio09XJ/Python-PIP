@@ -23,15 +23,19 @@ git clone
 ```sh 
 cd app
 ```
-3. Entra al entorno virtual de app
+3. Crear el entorno virtual(Estos son unicos por computadora)
+```sh 
+python -m venv env_de_app
+```
+4. Entra al entorno virtual de app
 ```sh
 soure env_de_app/bin/activate
 ```
-4. Instala las dependencias necesarias 
+5. Instala las dependencias necesarias 
 ```sh 
 pip3 install -r requeriments.txt
 ```
-5. Usa python3 para correr el código
+6. Usa python3 para correr el código
 ```sh
 python3 pro_pobla.py
 ```
